@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+main{
+    color: hsl(0, 36%, 70%);
+    position: relative;
+    z-index: 0;
+}
+.back{
+    position: absolute;
+    z-index: 1;
+}
+.content{
+    padding: 100px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+aside{
+    margin-top: 100px;
+    
+}
+.head{
+    font-size: 8em;
+}
+.mail{
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-between;
+    overflow: hidden;
+    /* background-color: black; */
+}
+#email{
+    padding-left: 2em;
+    border: 0;
+    color: hsl(0, 36%, 70%);
+}
+.btn{
+    color: #fff;
+    font-size: larger;
+    text-align: center;
+    /* width: 50px; */
+    /* height: 30px; */
+    border: 0;
+    background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border-radius: 30px;
+    padding: .7em 2em;
+}
+
+/* Just a comment*/
